@@ -1,3 +1,5 @@
+import 'package:challenges/week07_small_homework/data/repositories/songs/user_history_repository.dart';
+import 'package:challenges/week07_small_homework/data/repositories/songs/user_history_repository_mock.dart';
 import 'package:provider/provider.dart';
 import 'package:nested/nested.dart';
  
@@ -23,6 +25,8 @@ List<SingleChildWidget> get devProviders {
     ChangeNotifierProvider<AppSettingsState>(
       create: (_) =>AppSettingsState(repository: appSettingsRepository)
     ),
+
+    Provider<UserHistoryRepository>(create: (_) => UserHistoryRepositoryMock()),
   ];
 }
 
