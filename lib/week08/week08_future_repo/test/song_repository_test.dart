@@ -1,5 +1,5 @@
-import 'package:challenges/week08_future_repo/data/repositories/songs/song_repository_mock.dart';
-import 'package:challenges/week08_future_repo/model/songs/song.dart';
+import 'package:challenges/week08/week08_future_repo/data/repositories/songs/song_repository_mock.dart';
+import 'package:challenges/week08/week08_future_repo/model/songs/song.dart';
 
 void main() async {
   //   Instantiate the  song_repository_mock
